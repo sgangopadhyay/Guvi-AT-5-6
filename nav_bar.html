@@ -31,6 +31,28 @@
         padding-right: 40px;
         font-family: Arial, Helvetica, sans-serif;
       }
+      
+      /* CSS FOR LEFT NAVIGATION BAR */
+#left_nav_bar{
+    height: auto;
+    width: 300px;
+}
+
+#left_nav_bar li{
+    background-color: antiquewhite;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#left_nav_bar li a{
+    text-decoration: none;
+}
+
+#left_nav_bar li:hover{
+    background-color: black;
+    font-size: 20px;
+}
     </style>
   </head>
   <body>
@@ -43,5 +65,15 @@
         <li><a href="#">CONTACT US</a></li>
       </ul>
     </header>
+    
+    
+    <nav id="left_nav_bar">
+        <ul>
+            <li><a href="#">DASHBOARD</a></li>
+            <li><a href="#">STUDENT DETAILS</a></li>
+            <li><a href="#">MENTOR DETAILS</a></li>
+            <li><a href="#">COORDINATOR DETAILS</a></li>
+        </ul>
+    </nav>
   </body>
 </html>
